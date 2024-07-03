@@ -1,0 +1,93 @@
+body{
+  padding: 0px;
+}
+.title {
+	color: #5C6AC4;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+}
+ul li{
+  margin-right:20px;
+}
+ul li a{
+  color:white;
+  text-decoration: none;
+}
+nav{
+  background-color: blue;
+  color:white;
+  height: 40px;
+}
+.bg{
+  width:100%;
+  height:400px;
+  background-color: yellow;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+.abt{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.abtcon h1{
+  text-align: center;
+}
+.abt p{
+  width: 250px;
+}
+.sercon1 h1,.conts h1,.sercon h1{
+  text-align:center;
+}
+.ser1 div,.ser div{
+  width:80px;
+  height: 80px;
+  background-color: red;
+}
+.ser1,.ser{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+.sercon1,.sercon{
+  margin-top:50px ;
+}
+.sercon1{
+  background-color: grey;
+  height:230px;
+  padding: 30px;
+}
+.sercon1 a,.sercon a{
+  float:right;
+  margin-top:20px;
+}
+input,textarea{
+  display: block;
+}
+.frm{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: black;
+  color:white;
+}
+.foot{
+  background-color: blue;
+  color:white;
+  text-align: center;
+  margin-top:30px ;
+}
